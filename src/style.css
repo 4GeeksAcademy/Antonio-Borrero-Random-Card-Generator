@@ -1,5 +1,60 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
+    background: green;
+    font-family: 'Times New Roman';
+}
+
+.card {
     background: white;
+    height: 480px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.number {
+    font-size: 150px;
+    font-weight: 500;
+    color: black;
+}
+
+.spade {
+    background: white;
+    height: 480px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.club {
+    background: white;
+    height: 480px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.heart {
+    background: white;
+    height: 480px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.diamond {
+    background: white;
+    height: 480px;
+    width: 350px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 10px;
 }
